@@ -15,6 +15,7 @@
 		CA2332551E4B4818005374A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2332531E4B4818005374A3 /* LaunchScreen.storyboard */; };
 		CA2332601E4B4819005374A3 /* testPanGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA23325F1E4B4819005374A3 /* testPanGestureTests.m */; };
 		CA23326B1E4B4819005374A3 /* testPanGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA23326A1E4B4819005374A3 /* testPanGestureUITests.m */; };
+		CA23327A1E4B48F8005374A3 /* UIView+XMLPanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2332791E4B48F8005374A3 /* UIView+XMLPanGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CA2332661E4B4819005374A3 /* testPanGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPanGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA23326A1E4B4819005374A3 /* testPanGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPanGestureUITests.m; sourceTree = "<group>"; };
 		CA23326C1E4B4819005374A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2332781E4B48F8005374A3 /* UIView+XMLPanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMLPanGesture.h"; sourceTree = "<group>"; };
+		CA2332791E4B48F8005374A3 /* UIView+XMLPanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMLPanGesture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CA2332491E4B4818005374A3 /* AppDelegate.m */,
 				CA23324B1E4B4818005374A3 /* ViewController.h */,
 				CA23324C1E4B4818005374A3 /* ViewController.m */,
+				CA2332781E4B48F8005374A3 /* UIView+XMLPanGesture.h */,
+				CA2332791E4B48F8005374A3 /* UIView+XMLPanGesture.m */,
 				CA23324E1E4B4818005374A3 /* Main.storyboard */,
 				CA2332511E4B4818005374A3 /* Assets.xcassets */,
 				CA2332531E4B4818005374A3 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA23327A1E4B48F8005374A3 /* UIView+XMLPanGesture.m in Sources */,
 				CA23324D1E4B4818005374A3 /* ViewController.m in Sources */,
 				CA23324A1E4B4818005374A3 /* AppDelegate.m in Sources */,
 				CA2332471E4B4818005374A3 /* main.m in Sources */,
